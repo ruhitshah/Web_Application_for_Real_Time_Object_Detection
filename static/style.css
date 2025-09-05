@@ -1,0 +1,27 @@
+/* static/style.css — local look-and-feel, no CDN needed */
+:root { --bg:#0b1020; --t1:#99f6e4; --t2:#a78bfa; --glass:rgba(255,255,255,.08); --ring:rgba(255,255,255,.1); }
+html,body{height:100%}
+body{
+  margin:0; color:#e5e7eb; font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial;
+  background:
+    radial-gradient(1200px 600px at 20% -10%, var(--t1) 0%, transparent 60%),
+    radial-gradient(1200px 600px at 120% 20%, var(--t2) 0%, transparent 60%),
+    linear-gradient(180deg, var(--bg) 0%, var(--bg) 100%);
+}
+.container{max-width:1120px;margin:0 auto;padding:24px 16px}
+.card{background:var(--glass);backdrop-filter:blur(10px);border-radius:16px;padding:24px;box-shadow:0 20px 40px rgba(0,0,0,.25)}
+.grid{display:grid;gap:24px;grid-template-columns:1fr}
+@media(min-width:900px){.grid{grid-template-columns:1fr 1fr}}
+.h1{font-weight:800;font-size:34px;margin:0 0 6px}
+.sub{color:#94a3b8;margin:0 0 16px}
+.label{display:block;font-weight:600;font-size:14px;margin:10px 0 6px}
+.input, select{width:100%;padding:10px 12px;border-radius:10px;border:none;color:#0f172a}
+.btn{padding:10px 16px;border:none;border-radius:12px;font-weight:600;cursor:pointer}
+.btn.start{background:#10b981;color:#052e22}
+.btn.stop{background:#334155;color:#e5e7eb}
+.slider{width:100%}
+.panel{margin-top:18px;border-top:1px solid #334155;padding-top:12px}
+.stream{position:relative;border-radius:16px;overflow:hidden;border:1px solid var(--ring);background:#0f172a;display:flex;align-items:center;justify-content:center}
+.badge{position:absolute;top:8px;right:8px;font-size:12px;padding:4px 8px;border-radius:8px;background:var(--glass)}
+.status-on{color:#86efac}
+.status-off{color:#fda4af}
