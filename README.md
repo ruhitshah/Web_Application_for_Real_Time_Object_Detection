@@ -20,17 +20,20 @@ This project provides a web-based interface for performing **real-time object de
 ---
 
 ## 📂 Project Structure
+
+```text
 Web_Application_for_Real_Time_Object_Detection/
 │
-├── app_flask.py # Flask implementation
-├── app_fastapi.py # FastAPI implementation
-├── detector.py # Core object detection logic
-├── requirements.txt # Required Python packages
-├── README.md # Project documentation
+├── app_flask.py        # Flask implementation
+├── app_fastapi.py      # FastAPI implementation
+├── detector.py         # Core object detection logic
+├── requirements.txt    # Required Python packages
+├── README.md           # Project documentation
 │
-├── static/ # Static assets (CSS, JS, images)
-├── templates/ # HTML templates
-└── pycache/ # Python cache (ignore)
+├── static/             # Static assets (CSS, JS, images)
+├── templates/          # HTML templates
+└── __pycache__/        # Python cache (ignore)
+
 
 
 ## ⚙️ Installation
