@@ -1,0 +1,8 @@
+# requirements.txt
+ultralytics
+opencv-python
+flask
+jinja2
+fastapi
+uvicorn[standard]
+python-multipart
