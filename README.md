@@ -39,18 +39,18 @@ Web_Application_for_Real_Time_Object_Detection/
    ```bash
    git clone https://github.com/ruhitshah/Web_Application_for_Real_Time_Object_Detection.git
    cd Web_Application_for_Real_Time_Object_Detection
-# Create and activate a virtual environment (recommended)
+### Create and activate a virtual environment (recommended)
 python -m venv venv
 source venv/bin/activate   # On Linux/Mac
 venv\Scripts\activate      # On Windows
 #Install dependencies
 pip install -r requirements.txt
 ## 🚀 Usage
-# Run with Flask
+### Run with Flask
 python app_flask.py
 Open browser and navigate to: http://127.0.0.1:5000
 
-# Run with FastAPI
+### Run with FastAPI
 uvicorn app_fastapi:app --reload
 Open browser and navigate to: http://127.0.0.1:8000
 
