@@ -34,7 +34,7 @@ Web_Application_for_Real_Time_Object_Detection/
 ├── templates/          # HTML templates
 └── __pycache__/        # Python cache (ignore)
 
-
+```
 
 ## ⚙️ Installation
 
