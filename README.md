@@ -22,15 +22,15 @@ This project provides a web-based interface for performing **real-time object de
 ## 📂 Project Structure
 Web_Application_for_Real_Time_Object_Detection/
 │
-├── app_flask.py # Flask implementation
-├── app_fastapi.py # FastAPI implementation
-├── detector.py # Core object detection logic
-├── requirements.txt # Required Python packages
-├── README.md # Project documentation
+├── app_flask.py # Flask implementation/
+├── app_fastapi.py # FastAPI implementation/
+├── detector.py # Core object detection logic/
+├── requirements.txt # Required Python packages/
+├── README.md # Project documentation/
 │
-├── static/ # Static assets (CSS, JS, images)
-├── templates/ # HTML templates
-└── pycache/ # Python cache (ignore)
+├── static/ # Static assets (CSS, JS, images)/
+├── templates/ # HTML templates/
+└── pycache/ # Python cache (ignore)/
 
 
 ## ⚙️ Installation
@@ -39,29 +39,29 @@ Web_Application_for_Real_Time_Object_Detection/
    ```bash
    git clone https://github.com/ruhitshah/Web_Application_for_Real_Time_Object_Detection.git
    cd Web_Application_for_Real_Time_Object_Detection
-#Create and activate a virtual environment (recommended)
+# Create and activate a virtual environment (recommended)
 python -m venv venv
 source venv/bin/activate   # On Linux/Mac
 venv\Scripts\activate      # On Windows
 #Install dependencies
 pip install -r requirements.txt
-##🚀 Usage
-#Run with Flask
+## 🚀 Usage
+# Run with Flask
 python app_flask.py
 Open browser and navigate to: http://127.0.0.1:5000
 
-#Run with FastAPI
+# Run with FastAPI
 uvicorn app_fastapi:app --reload
 Open browser and navigate to: http://127.0.0.1:8000
 
-##🖼️ Web Interface
+## 🖼️ Web Interface
 Upload an image for detection.
 
 View detection results with bounding boxes and class labels.
 
 Option to extend for live video stream (webcam integration).
 
-##📦 Requirements
+## 📦 Requirements
 Main dependencies (full list in requirements.txt):
 
 Python 3.7+
@@ -78,16 +78,16 @@ NumPy
 
 TensorFlow / PyTorch (depending on model used)
 
-##🔧 Customization
+## 🔧 Customization
 Update detector.py to integrate your own trained detection model.
 
 Modify templates/ to change the UI.
 
 Add CSS/JS under static/ for design customization.
 
-##📜 License
+## 📜 License
 This project is licensed under the MIT License – see the LICENSE file for details.
 
-##👨‍💻 Author
+## 👨‍💻 Author
 Ruhit Shah
 GitHub Profile
