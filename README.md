@@ -32,7 +32,7 @@ Web_Application_for_Real_Time_Object_Detection/
 │
 ├── static/             # Static assets (CSS, JS, images)
 ├── templates/          # HTML templates
-└── __pycache__/        # Python cache (ignore)
+└── __pycache__/        # detector.cpython-313.pyc
 
 ```
 
